@@ -13,6 +13,8 @@
 		4FF30A9D2A90E88E00959877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF30A9B2A90E88E00959877 /* Main.storyboard */; };
 		4FF30A9F2A90E88F00959877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF30A9E2A90E88F00959877 /* Assets.xcassets */; };
 		4FF30AA22A90E88F00959877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF30AA02A90E88F00959877 /* LaunchScreen.storyboard */; };
+		4FF30AAA2A90E99000959877 /* ViewControllerSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF30AA92A90E99000959877 /* ViewControllerSecond.swift */; };
+		4FF30AAC2A90EFB200959877 /* Sehir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF30AAB2A90EFB200959877 /* Sehir.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4FF30A9E2A90E88F00959877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FF30AA12A90E88F00959877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FF30AA32A90E88F00959877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF30AA92A90E99000959877 /* ViewControllerSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSecond.swift; sourceTree = "<group>"; };
+		4FF30AAB2A90EFB200959877 /* Sehir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sehir.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				4FF30A952A90E88E00959877 /* AppDelegate.swift */,
 				4FF30A972A90E88E00959877 /* SceneDelegate.swift */,
+				4FF30AA92A90E99000959877 /* ViewControllerSecond.swift */,
 				4FF30A992A90E88E00959877 /* ViewController.swift */,
 				4FF30A9B2A90E88E00959877 /* Main.storyboard */,
 				4FF30A9E2A90E88F00959877 /* Assets.xcassets */,
 				4FF30AA02A90E88F00959877 /* LaunchScreen.storyboard */,
 				4FF30AA32A90E88F00959877 /* Info.plist */,
+				4FF30AAB2A90EFB200959877 /* Sehir.swift */,
 			);
 			path = SehirTanitimKitabi;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF30AAA2A90E99000959877 /* ViewControllerSecond.swift in Sources */,
 				4FF30A9A2A90E88E00959877 /* ViewController.swift in Sources */,
 				4FF30A962A90E88E00959877 /* AppDelegate.swift in Sources */,
 				4FF30A982A90E88E00959877 /* SceneDelegate.swift in Sources */,
+				4FF30AAC2A90EFB200959877 /* Sehir.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
